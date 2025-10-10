@@ -7,7 +7,6 @@
 
 .login__page {
   align-items: center;
-  background-image: url("../css/images/torn-beige-paper.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -23,13 +22,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  z-index: 1;
-  margin-top: -30px;
-  top: 200px;
-  right: 125px;
-  transform: rotate(-7deg);
-  height: 120px;
 }
 
 .title {
@@ -38,41 +30,26 @@
   flex-direction: column;
 }
 
-.title img {
-  height: 80px;
-  margin: 0 0 -60px -20px;
-}
-
 .title h1 {
-  font-family: AlexBrush, sans-serif;
-  font-size: 150px;
-  font-weight: 600;
+  /* font-family: sans-serif; */
+  font-size: 100px;
   text-shadow: 1px 3px 3px #cbbca2;
-  transform: rotate(-2deg);
 }
 
 .subtitle {
-  font-family: AlexBrush, sans-serif;
+  /* font-family: sans-serif; */
   font-size: 80px;
   font-weight: 400;
-  padding: 110px 0 0 190px;
-  position: absolute;
-  transform: rotate(-3deg);
 }
 
 .login__container {
   align-items: center;
-  background-image: url("../css/images/postit-login.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: rotate(-5deg);
-  margin-left: -50px;
-  height: 80%;
-  width: 70%;
 }
 
 .login__input {
@@ -80,9 +57,6 @@
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  transform: rotate(7deg);
-  height: 40%;
-  margin-top: 120px;
 }
 
 .login__input input {

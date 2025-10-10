@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import "../css/Login.css";
-import platter from "../css/images/platter.png";
 
 export default function Login() {
   const history = useHistory();
@@ -28,7 +27,6 @@ export default function Login() {
     <div className="login__page">
       <div className="login__title">
         <div className="title">
-          <img src={platter} alt="platter" />
           <h1>Recipes</h1>
           <p className="subtitle">app</p>
         </div>

@@ -2,13 +2,11 @@ import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 import SearchBar from './SearchBar';
-import iconTitleHeader from '../css/images/platterBeige.png';
 import ProfileIcon from '../css/images/profile.png';
 import SearchIcon from '../css/images/search.png';
 import Search from '../images/searchIcon.svg';
 import Profile from '../images/profileIcon.svg';
 import '../css/Header.css';
-import homeBeige from "../images/homeBeige.png";
 
 export default function Header() {
   const [showBar, setShowBar] = useState(false);
@@ -23,7 +21,6 @@ export default function Header() {
       <header>
         <div className="header__title">
           <div className="title_header">
-            <img src={ iconTitleHeader } alt="iconTtitle" />
             <h1>Recipes</h1>
           </div>
           <h3 className="subtitle_header">app</h3>
@@ -31,7 +28,6 @@ export default function Header() {
         <div className="header__icons">
           { header2 && (
             <button onClick={() => history.push("/meals")}>
-            <img src={homeBeige} alt="homepage" className="homeBtn2"/>
           </button>
           )}
           <button
