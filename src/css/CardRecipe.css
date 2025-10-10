@@ -1,7 +1,6 @@
 .card {
   background: rgb(255, 252, 245);
   border-radius: 3px;
-  box-shadow: 0 0 10px rgba(75, 2, 2, 0.5) , 0 0 2px rgba(105, 9, 9, 0.4);
   display: flex;
   flex-direction: column;
   margin: 0 20px 45px;
@@ -12,7 +11,7 @@
 }
 
 .card:hover {
-  transform: rotate(-3deg);  
+  transform: rotate(-2deg);  
 }
 
 .recipe-tape {

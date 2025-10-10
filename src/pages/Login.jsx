@@ -27,8 +27,7 @@ export default function Login() {
     <div className="login__page">
       <div className="login__title">
         <div className="title">
-          <h1>Recipes</h1>
-          <p className="subtitle">app</p>
+          <h1>Recipes app</h1>
         </div>
       </div>
       <div className="login__container">
