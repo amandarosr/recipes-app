@@ -1,8 +1,8 @@
 .in-progress_page {
   align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: repeating-conic-gradient(rgba(122, 118, 45, 0.668) 0% 25%, #e1d1c2c6 0% 50%);
+  background-position: 0 0, 60px 60px;
+  background-size: 260px 260px;
   display: flex;
   flex-direction: column;
   text-align: center;

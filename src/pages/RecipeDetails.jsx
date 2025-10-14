@@ -43,7 +43,7 @@ export default function RecipeDetails() {
     <div className="details__page">
       <div className="mobile-container">
         <span className="top-btns-container">
-          <button onClick={() => history.push("/meals")}>
+          <button onClick={() => history.push("/meals")} className="top-btn">
             <img src={home} alt="homepage" className="homeBtn"/>
           </button>
           <ButtonFavorite />

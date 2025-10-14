@@ -1,7 +1,7 @@
 .card__done__favorite {
   background: #f8f3e8;
-  border-radius: 3px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: none;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -14,9 +14,9 @@
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .card__done__favorite h3 {

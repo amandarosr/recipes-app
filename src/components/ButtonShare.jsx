@@ -29,6 +29,7 @@ export default function ButtonShare({ testid, typeRecipe = '', idRecipe = 0 }) {
         data-testid={ testid }
         onClick={ copyToClipboard }
         src={ shareIcon }
+        className="top-btn"
       >
         <img
           src={ shareIcon }

@@ -47,9 +47,6 @@ export default function Profile() {
           </button>
         </div>
       </main>
-      <footer className="footer-login">
-        <span>Copyright © Recipes App | All Rights Reserved</span>
-      </footer>
     </div>
   );
 }

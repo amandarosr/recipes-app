@@ -3,11 +3,14 @@
 }
 
 .card-details {
+  background-color: rgb(242, 236, 231, 0.9);
+  border: 6px double #7d7a2ce9;
+  border-radius: 20px;
+  color: #4c4b2d;
   align-items: center;
   display: flex;
   flex-direction: column;
-  max-width: 90%;
-  padding-bottom: 2rem;
+  padding: 2rem 3rem;
 }
 
 .details-title {
@@ -15,14 +18,14 @@
 }
 
 .details-title h1 {
-  color: brown;
-  font-size: 48px;
-  font-weight: 600;
-  text-shadow: 2px 2px 1px #cbbca2;
+  color: #ed662c;
+  text-shadow: 3px 2px 0 #4c4b2d;
+  font-size: 55px;
+  font-weight: 400;
 }
 
 .details-title p {
-  font-size: 20px;
+  font-size: 25px;
   position: relative;
   top: -10px;
 }
@@ -31,8 +34,8 @@
   background: rgb(255, 254, 249);
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.2);
   float: left;
-  height: 210px;
-  margin: 10px 30px;
+  height: 230px;
+  margin: 10px 25px 10px 0;
   padding: 15px;
   padding-bottom: 45px;
   transform: rotate(-2deg);
@@ -40,7 +43,7 @@
 }
 
 .instructions {
-  font-size: 18px;
+  font-size: 22px;
   text-align: justify;
 }
 
@@ -49,20 +52,20 @@
   flex-flow: row wrap;
   justify-items: center;
   align-items: center;
-  margin: 50px 0;
+  margin: 50px 10px;
 }
 
 .ingredients-container {
   display: flex;
   flex-direction: column;
-  font-size: 21px;
+  font-size: 24px;
   list-style: inside;
   text-align: start;
   margin-bottom: 30px;
 }
 
 .progress-checkbox {
-  accent-color: brown;
+  accent-color: #ED662C;
   cursor: pointer;
   height: 1em;
   margin-right: 8px;
@@ -71,7 +74,7 @@
 }
 
 .section-three {
-  margin: 0;
+  margin: 0 10px;
 }
 
 @media (max-width: 850px) {

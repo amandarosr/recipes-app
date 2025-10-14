@@ -51,6 +51,7 @@ export default function ButtonFavorite() {
         data-testid="favorite-btn"
         onClick={ favoriteRecipe }
         src={ favorite ? blackHeartIcon : whiteHeartIcon }
+        className="top-btn"
       >
         <img
           src={ favorite ? blackHeartIcon : whiteHeartIcon }

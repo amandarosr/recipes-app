@@ -13,7 +13,7 @@ export default function CardRecipe({ url, name, index }) {
         src={ url }
         alt={ name }
       />
-      <h3 data-testid={ `${index}-card-name` }>{ name }</h3>
+      <h3 className="card-name">{ name }</h3>
     </div>
   );
 }

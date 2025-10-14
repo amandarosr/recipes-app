@@ -8,7 +8,6 @@ import RecipeContext from "../context/RecipeContext";
 import "../css/CardRecipeDetails.css";
 import { getRecipesId } from "../services/fetchAPI";
 import IngredientCheckbox from "./IngredientCheckbox";
-// import VideoBorder from "../css/images/video-border.png";
 
 export default function CardRecipeDetails() {
   const { listIngredients, setListIngredients, recipe, setRecipe } =
@@ -106,13 +105,12 @@ export default function CardRecipeDetails() {
             {recipe && pathname.includes("/meals") && (
               <div className="section-three">
                 <ReactPlayer
-                  width="380px"
-                  height="250px"
+                  width="360px"
+                  height="212px"
                   style={videoStyle}
                   data-testid="video"
                   url={recipe.strYoutube}
                 />
-                {/* <img src={VideoBorder} className="video-border" alt="border" /> */}
               </div>
             )}
           </div>
