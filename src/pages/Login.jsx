@@ -26,8 +26,9 @@ export default function Login() {
   return (
     <div className="login__page">
       <div className="login__container">
-        <div>
-          <h1 className="title">Recipes app</h1>
+        <div className="title-container">
+          <h1 className="title">Recipes</h1>
+          <h3 className="subtitle">app</h3>
         </div>
         <div className="login__input">
           <input

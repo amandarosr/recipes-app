@@ -8,20 +8,28 @@
   align-items: center;
   height: 100vh;
 }
+.title-container {
+  display: flex;
+  flex-flow: row wrap;
+  color: #ed662c;
+  text-shadow: 4px 3px 0 #f2ece7ef;
+  font-family: TitleFont;
+  text-align: center;
+}
 
 .title {
-  color: #e4622b;
-  text-shadow: 4px 3px 0 #463d35c0;
-  font-family: TitleFont;
-  font-size: 75px;
-  text-align: center;
+  font-size: 72px;
+}
+
+.subtitle {
+  padding: 18px 10px 0 5px;
+  font-size: 37px;
 }
 
 .login__container {
   background-image: repeating-conic-gradient(#7a762dd4 0% 25%, #e1d1c2cc 0% 50%);
   background-position: 0 0, 60px 60px;
   background-size: 121px 121px;
-  background-color: #e1d1c2;
   border-top: 6px solid #7d7a2ce9;
   border-bottom: 6px solid #7d7a2ce9;
   align-items: center;

@@ -1,16 +1,13 @@
-:root {
-  --titleColor: #a52a2a;
-  --darkerRed: #4a1a1a;
-  --lightBeige: #ebddc4;
-  --darkBeige: rgba(168, 113, 74, 0.2);
-}
-
 header {
-  color: var(--lightBeige);
+  background-image: repeating-conic-gradient(#7a762dd4 0% 25%, #e1d1c2cc 0% 50%);
+  background-position: 50%;
+  background-size: 120px 120px;
+  border-top: 5px solid #7d7a2cda;
+  border-bottom: 5px solid #7d7a2ce9;
   display: flex;
   justify-content: space-between;
-  padding: 0 20px 5px 20px;
-  width: 80%;
+  padding: 20px 40px;
+  width: 100%;
 }
 
 header button {
@@ -23,25 +20,27 @@ header button {
 /* header button:hover {} */
 
 .header__title {
+  color: #ed662c;
+  text-shadow: 3px 2px 0 #f2ece7;
+  font-family: TitleFont;
   align-items: center;
-  border-radius: 50%;
-  display: flex;
-  height: 50px;
   justify-content: center;
+  display: flex;
+  padding-top: 15px;
+  height: 50px;
 }
 
 .title_header {
   display: flex;
-  font-size: 30px;
 }
 
 .title_header h1 {
-  font-size: 40px;
+  font-size: 48px;
 }
 
 .subtitle_header {
-  font-size: 20px;
-  left: 142px;
+  font-size: 27px;
+  margin: 5px 0 0 6px;
 }
 
 .header__icons {

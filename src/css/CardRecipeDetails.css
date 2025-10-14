@@ -1,8 +1,3 @@
-@font-face {
-  font-family: AlexBrush;
-  src: url("../images/AlexBrush-Regular.ttf") format("truetype");
-}
-
 .crossed {
   text-decoration: line-through solid black;
 }
