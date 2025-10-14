@@ -25,12 +25,10 @@ export default function Login() {
 
   return (
     <div className="login__page">
-      <div className="login__title">
-        <div className="title">
-          <h1>Recipes app</h1>
-        </div>
-      </div>
       <div className="login__container">
+        <div>
+          <h1 className="title">Recipes app</h1>
+        </div>
         <div className="login__input">
           <input
             type="text"
@@ -58,9 +56,6 @@ export default function Login() {
           </button>
         </div>
       </div>
-      <footer className="footer-login">
-        <span>Copyright © Recipes App | All Rights Reserved</span>
-      </footer>
     </div>
   );
 }

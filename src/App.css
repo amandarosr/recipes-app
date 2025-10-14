@@ -1,9 +1,6 @@
-/* @font-face {
-  font-family: ;
-  src: url();
-} */
+@font-face {
+  font-family: TitleFont;
+  src: url("./images/Bread\ Flour\ DEMO.ttf");
+}
 
-/* * {
-  font-family: SERMO;
-  font-weight: 600;
-} */
+
