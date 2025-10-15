@@ -1,8 +1,7 @@
 .details__page {
-  background-image: url('../css/images/torn-beige-paper.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: repeating-conic-gradient(rgba(122, 118, 45, 0.668) 0% 25%, #e1d1c2c6 0% 50%);
+  background-position: 0 0, 60px 60px;
+  background-size: 260px 260px;
   display: flex;
   justify-content: center;
 }
@@ -11,8 +10,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin-left: -100px;
+  width: 58%;
   text-align: center;
 }
 
@@ -22,15 +20,22 @@
   margin: 20px
 }
 
-.top-btns-container button {
+.top-btn {
+  background: none;
+  box-shadow: none;
   margin: 0 5px;
 }
 
-.homeBtn {
-  height: 28px;
+.top-btn img {
+  height: 45px;
 }
 
 .start {
+  background-color: rgba(237, 102, 44, 0.95);
+  color: #FFFCF5;
+  font-size: 25px;
+  height: 45px;
+  width: 175px;
   bottom: 15px;
   position: fixed;
   z-index: 2;

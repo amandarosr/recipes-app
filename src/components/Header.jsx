@@ -1,64 +1,52 @@
-import React, { useState } from 'react';
-import { useLocation } from 'react-router-dom';
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
-import SearchBar from './SearchBar';
-import iconTitleHeader from '../css/images/platterBeige.png';
-import ProfileIcon from '../css/images/profile.png';
-import SearchIcon from '../css/images/search.png';
-import Search from '../images/searchIcon.svg';
-import Profile from '../images/profileIcon.svg';
-import '../css/Header.css';
-import homeBeige from "../images/homeBeige.png";
+import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import SearchBar from "./SearchBar";
+import Profile from "../css/images/profile.png";
+import Search from "../css/images/search.png";
+import Home2 from "../css/images/home2.png";
+import "../css/Header.css";
 
 export default function Header() {
   const [showBar, setShowBar] = useState(false);
   const history = useHistory();
-  const location = useLocation();
-  const path = location.pathname;
-  const pathSearch = path === '/meals';
-  const header2 = !pathSearch
+  const { pathname } = useLocation();
 
   return (
     <>
       <header>
+        <button
+          onClick={() => history.push("/profile")}
+          data-testid="profile-top-btn"
+          className="header__button"
+          // src={Profile}
+        >
+          <img src={Profile} alt="search-icon" className="header_icon" />
+        </button>
         <div className="header__title">
           <div className="title_header">
-            <img src={ iconTitleHeader } alt="iconTtitle" />
             <h1>Recipes</h1>
           </div>
           <h3 className="subtitle_header">app</h3>
         </div>
-        <div className="header__icons">
-          { header2 && (
-            <button onClick={() => history.push("/meals")}>
-            <img src={homeBeige} alt="homepage" className="homeBtn2"/>
-          </button>
-          )}
-          <button
-            onClick={ () => history.push('/profile') }
-            data-testid="profile-top-btn"
-            className="header__button"
-            src={ Profile }
-          >
-            <img src={ ProfileIcon } alt="search-icon" />
-          </button>
-          {pathSearch && (
-            <div>
-              <button
-                onClick={ () => setShowBar(!showBar) }
-                className="header__button"
-                data-testid="search-top-btn"
-                src={ Search }
-              >
-                <img src={ SearchIcon } alt="search-icon" />
-              </button>
-            </div>
+        <div>
+          {pathname === "/meals" ? (
+            <button
+              onClick={() => setShowBar(!showBar)}
+              className="header__button"
+              data-testid="search-top-btn"
+              // src={Search}
+            >
+              <img src={Search} alt="search-icon" className="header_icon" />
+            </button>
+          ) : (
+            <button onClick={() => history.push("/meals")} className="header__button">
+              <img src={Home2} alt="homepage" className="header_icon home2" />
+            </button>
           )}
         </div>
       </header>
-      <section className="header__search">
-        { showBar && <SearchBar /> }
-      </section>
+      <section className="header__search">{showBar && <SearchBar />}</section>
     </>
   );
 }

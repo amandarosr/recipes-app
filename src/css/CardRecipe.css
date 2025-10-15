@@ -1,7 +1,8 @@
 .card {
   background: rgb(255, 252, 245);
-  border-radius: 3px;
-  box-shadow: 0 0 10px rgba(75, 2, 2, 0.5) , 0 0 2px rgba(105, 9, 9, 0.4);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 6.4px 14.4px 0 rgb(0 0 0 / 13%), 0 1.2px 3.6px 0 rgb(0 0 0 / 11%);
   display: flex;
   flex-direction: column;
   margin: 0 20px 45px;
@@ -12,16 +13,16 @@
 }
 
 .card:hover {
-  transform: rotate(-3deg);  
+  transform: rotate(-2deg);  
 }
 
 .recipe-tape {
   filter: contrast(250%) drop-shadow(1px 1px 1px rgb(247, 203, 137));
   left: 38px;
   position: absolute;
-  top: -50px;
+  top: -45px;
   transform: rotate(142deg);
-  width: 110px;
+  width: 100px;
   z-index: 2;
 }
 
@@ -30,10 +31,17 @@
   padding-bottom: 5px;
 }
 
-h3 {
-  font-size: 20px;
-  font-weight: 600;
-  max-height: 70px;
+.card-name {
+  color: #4c4b2d;
+  font-size: 25px;
+  max-height: 60px;
   margin-top: 10px;
   overflow: hidden;
+}
+
+@media (max-width: 850px) {
+  .card {
+    padding-bottom: 25px;
+    width: 200px;
+  }
 }

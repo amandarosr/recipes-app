@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import "../css/Login.css";
-import platter from "../css/images/platter.png";
 
 export default function Login() {
   const history = useHistory();
@@ -26,14 +25,11 @@ export default function Login() {
 
   return (
     <div className="login__page">
-      <div className="login__title">
-        <div className="title">
-          <img src={platter} alt="platter" />
-          <h1>Recipes</h1>
-          <p className="subtitle">app</p>
-        </div>
-      </div>
       <div className="login__container">
+        <div className="title-container">
+          <h1 className="title">Recipes</h1>
+          <h3 className="subtitle">app</h3>
+        </div>
         <div className="login__input">
           <input
             type="text"
@@ -61,9 +57,6 @@ export default function Login() {
           </button>
         </div>
       </div>
-      <footer className="footer-login">
-        <span>Copyright © Recipes App | All Rights Reserved</span>
-      </footer>
     </div>
   );
 }

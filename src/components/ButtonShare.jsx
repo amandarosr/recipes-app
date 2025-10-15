@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom/cjs/react-router-dom.min';
-import shareIcon from '../images/shareIcon.svg';
+import shareIcon from '../images/share.png';
 
 const copy = require('clipboard-copy');
 
@@ -29,6 +29,7 @@ export default function ButtonShare({ testid, typeRecipe = '', idRecipe = 0 }) {
         data-testid={ testid }
         onClick={ copyToClipboard }
         src={ shareIcon }
+        className="top-btn"
       >
         <img
           src={ shareIcon }

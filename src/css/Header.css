@@ -1,23 +1,8 @@
-:root {
-  --titleColor: #a52a2a;
-  --darkerRed: #4a1a1a;
-  --lightBeige: #ebddc4;
-  --darkBeige: rgba(168, 113, 74, 0.2);
-}
-
 header {
-  backdrop-filter: blur(5px);
-  border-radius: 0 0 20px 20px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  color: var(--lightBeige);
   display: flex;
   justify-content: space-between;
-  padding: 0 20px 5px 20px;
-  width: 80%;
-}
-
-header:hover {
-  background-color: rgb(210, 140, 82, 0.8);
+  padding: 35px 0 25px;
+  width: 50%;
 }
 
 header button {
@@ -27,57 +12,32 @@ header button {
   padding: 5px;
 }
 
-header button:hover {
-  background-color: transparent;
-  height: 36px;
-}
-
 .header__title {
+  color: #ed662c;
+  text-shadow: 3px 2px 0 #fffcf5;
   align-items: center;
-  border-radius: 50%;
-  display: flex;
-  height: 50px;
   justify-content: center;
-  width: 170px;
-}
-
-.header__title img {
-  height: 38px;
-  margin-right: 5px;
-  position: relative;
-  top: 5px;
+  display: flex;
+  padding-top: 5px;
+  height: 50px;
 }
 
 .title_header {
   display: flex;
-  font-size: 30px;
-  position: relative;
-  top: 3px;
 }
 
 .title_header h1 {
-  font-family: AlexBrush, sans-serif;
-  font-size: 40px;
-  font-weight: 600;
-  transform: rotate(-2deg);
+  font-size: 85px;
+  letter-spacing: -1px;
 }
 
 .subtitle_header {
-  font-family: AlexBrush, sans-serif;
-  font-size: 20px;
-  left: 142px;
-  position: absolute;
-  top: 16px;
-  transform: rotate(-3deg);
+  font-size: 55px;
+  margin: 15px 0 0 4px;
 }
 
-.header__icons {
-  align-items: center;
-  display: flex;
-}
-
-.header__icons img {
-  height: 40px;
+.header_icon {
+  height: 45px;
   padding: 2px 0;
 }
 
@@ -93,17 +53,15 @@ header button:hover {
 }
 
 .page__title h1 {
-  color: var(--titleColor);
-  font-family: AlexBrush, sans-serif;
   font-size: 60px;
   font-weight: 600;
   margin-right: 15px;
   text-shadow: 1px 3px 3px #dad2c5;
 }
 
-.page__title img {
-  filter: drop-shadow(2px 2px 1px white);
-  width: 60px;
+.home2 {
+  padding: 0;
+  height: 50px;
 }
 
 .header__search {
@@ -124,7 +82,7 @@ header button:hover {
   background-color: #FFFCF5;
   color: rgb(86, 86, 86);
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   padding-left: 15px;
   font-size: 18px;
@@ -146,23 +104,46 @@ header button:hover {
 }
 
 .checkbox__container input {
-  accent-color: brown;
+  accent-color: #ED662C;
   margin-right: 5px;
 }
 
 .button__search {
-  background-color: brown;
+  background-color: rgba(237, 102, 44, 0.9);
   color: white;
-  width: 150px;
+  border: none;
+  border-radius: 17px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  height: 40px;
+  width: 140px;
 }
 
 @media (max-width: 850px) {
   header {
     width: 100%;
+    padding: 30px 5px 20px;
   }
   
   .checkbox__container {
     font-size: 20px;
     width: 90%;
+  }
+
+  .title_header h1 {
+    font-size: 62px;
+  }
+
+  .subtitle_header {
+    font-size: 43px;
+    margin-top: 5px 
+  }
+
+  .header_icon {
+    height: 36px;
+    padding: 0;
+  }
+
+  .home2 {
+    height: 40px;
   }
 }

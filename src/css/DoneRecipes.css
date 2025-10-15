@@ -1,8 +1,7 @@
 .done__page {
-  background-image: url("../css/images/torn-beige-paper2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: repeating-conic-gradient(rgba(132, 127, 44, 0.6) 0% 25%, #e1d1c2c6 0% 50%);
+  background-size: 350px 350px;
+  background-position: 50%;
   background-position-y: 100%;
   display: flex;
   flex-direction: column;
@@ -19,10 +18,10 @@
 }
 
 .card__done__favorite {
-  box-shadow: 0 0 10px rgba(75, 2, 2, 0.4) , 0 0 2px rgba(105, 9, 9, 0.4);
+  box-shadow: 0 6.4px 14.4px 0 rgb(0 0 0 / 13%), 0 1.2px 3.6px 0 rgb(0 0 0 / 11%);
   margin: 20px;
 }
 
 .doneFavCLink {
-  color: brown;
+  color: #ED662C;
 }
