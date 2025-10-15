@@ -4,7 +4,7 @@ import CardDoneAndFavorite from "../components/CardDoneAndFavorite";
 import Header from "../components/Header";
 import "../css/FavoriteRecipes.css";
 import "../css/CardDoneAndFavorite.css";
-import blackHeartIcon from "../images/blackHeartIcon.svg";
+import blackHeartIcon from "../images/heart2.png";
 
 export default function FavoriteRecipes() {
   const [favoriteRecipes, setFavoriteRecipes] = useState([]);

@@ -1,8 +1,8 @@
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom/cjs/react-router-dom.min';
 import RecipeContext from '../context/RecipeContext';
-import blackHeartIcon from '../images/blackHeartIcon.svg';
-import whiteHeartIcon from '../images/whiteHeartIcon.svg';
+import blackHeartIcon from '../images/heart2.png';
+import whiteHeartIcon from '../images/heart1.png';
 
 export default function ButtonFavorite() {
   const { recipe } = useContext(RecipeContext);

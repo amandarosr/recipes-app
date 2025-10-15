@@ -1,8 +1,4 @@
 header {
-  /* background-image: repeating-conic-gradient(rgba(132, 127, 44, 0.7) 0% 25%, #e1d1c2c6 0% 50%);
-  background-size: 500px 500px; */
-  /* border-top: 4px solid #7d7a2ccc;
-  border-bottom: 4px solid #7d7a2ccc; */
   display: flex;
   justify-content: space-between;
   padding: 35px 0 25px;

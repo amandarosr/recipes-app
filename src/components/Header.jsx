@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import SearchBar from "./SearchBar";
-import ProfileIcon from "../css/images/profile.png";
-import SearchIcon from "../css/images/search.png";
-import Search from "../images/searchIcon.svg";
-import Profile from "../images/profileIcon.svg";
+import Profile from "../css/images/profile.png";
+import Search from "../css/images/search.png";
 import "../css/Header.css";
 
 export default function Header() {
@@ -18,9 +16,9 @@ export default function Header() {
           onClick={() => history.push("/profile")}
           data-testid="profile-top-btn"
           className="header__button"
-          src={Profile}
+          // src={Profile}
         >
-          <img src={ProfileIcon} alt="search-icon" className="header_icon" />
+          <img src={Profile} alt="search-icon" className="header_icon" />
         </button>
         <div className="header__title">
           <div className="title_header">
@@ -33,9 +31,9 @@ export default function Header() {
             onClick={() => setShowBar(!showBar)}
             className="header__button"
             data-testid="search-top-btn"
-            src={Search}
+            // src={Search}
           >
-            <img src={SearchIcon} alt="search-icon" className="header_icon" />
+            <img src={Search} alt="search-icon" className="header_icon" />
           </button>
         </div>
       </header>

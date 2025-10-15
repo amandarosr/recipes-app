@@ -1,5 +1,7 @@
 .profile__page {
-  background-color: rgb(231, 219, 207, 0.5);
+  background-image: repeating-conic-gradient(rgba(132, 127, 44, 0.6) 0% 25%, #e1d1c2c6 0% 50%);
+  background-size: 350px 350px;
+  background-position: 50%;
   align-items: center;
   display: flex;
   flex-direction: column;
