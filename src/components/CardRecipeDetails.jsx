@@ -105,8 +105,8 @@ export default function CardRecipeDetails() {
             {recipe && pathname.includes("/meals") && (
               <div className="section-three">
                 <ReactPlayer
-                  width="360px"
-                  height="212px"
+                  width="350px"
+                  height="211px"
                   style={videoStyle}
                   data-testid="video"
                   url={recipe.strYoutube}

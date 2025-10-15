@@ -11,6 +11,12 @@
 
 .favoriteCBtn {
   align-self: center;
+  background: none;
+  box-shadow: none;
   margin: 10px 0 0;
   width: 50%;
+}
+
+.favoriteCBtn img {
+  height: 40px;
 }

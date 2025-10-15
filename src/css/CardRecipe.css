@@ -38,3 +38,10 @@
   margin-top: 10px;
   overflow: hidden;
 }
+
+@media (max-width: 850px) {
+  .card {
+    padding-bottom: 25px;
+    width: 200px;
+  }
+}

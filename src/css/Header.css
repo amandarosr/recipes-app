@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 35px 0 25px;
-  width: 55%;
+  width: 50%;
 }
 
 header button {
@@ -37,7 +37,7 @@ header button {
 }
 
 .header_icon {
-  height: 40px;
+  height: 45px;
   padding: 2px 0;
 }
 
@@ -53,17 +53,15 @@ header button {
 }
 
 .page__title h1 {
-  color: var(--titleColor);
-  font-family: AlexBrush, sans-serif;
   font-size: 60px;
   font-weight: 600;
   margin-right: 15px;
   text-shadow: 1px 3px 3px #dad2c5;
 }
 
-.page__title img {
-  filter: drop-shadow(2px 2px 1px white);
-  width: 60px;
+.home2 {
+  padding: 0;
+  height: 50px;
 }
 
 .header__search {
@@ -111,7 +109,7 @@ header button {
 }
 
 .button__search {
-  background-color: #ED662C;
+  background-color: rgba(237, 102, 44, 0.9);
   color: white;
   border: none;
   border-radius: 17px;
@@ -123,10 +121,29 @@ header button {
 @media (max-width: 850px) {
   header {
     width: 100%;
+    padding: 30px 5px 20px;
   }
   
   .checkbox__container {
     font-size: 20px;
     width: 90%;
+  }
+
+  .title_header h1 {
+    font-size: 62px;
+  }
+
+  .subtitle_header {
+    font-size: 43px;
+    margin-top: 5px 
+  }
+
+  .header_icon {
+    height: 36px;
+    padding: 0;
+  }
+
+  .home2 {
+    height: 40px;
   }
 }

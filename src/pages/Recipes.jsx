@@ -83,7 +83,6 @@ export default function Recipes() {
             </Link>
           ))}
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }
