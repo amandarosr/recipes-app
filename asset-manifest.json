@@ -1,26 +1,16 @@
 {
   "files": {
-    "main.css": "/recipes-app/static/css/main.784f02ed.css",
-    "main.js": "/recipes-app/static/js/main.e34ae540.js",
-    "static/media/torn-beige-paper.jpg": "/recipes-app/static/media/torn-beige-paper.635c780d8026295a64b1.jpg",
-    "static/media/torn-beige-paper2.jpg": "/recipes-app/static/media/torn-beige-paper2.a0e58bcf1d5b51fdd9fb.jpg",
+    "main.css": "/recipes-app/static/css/main.ea81127c.css",
+    "main.js": "/recipes-app/static/js/main.b1f7850e.js",
     "static/media/strip-paper.png": "/recipes-app/static/media/strip-paper.41239bd92126b4e36706.png",
-    "static/media/SERMORegular.ttf": "/recipes-app/static/media/SERMORegular.53e85590aa3ea1a2d585.ttf",
-    "static/media/AlexBrush-Regular.ttf": "/recipes-app/static/media/AlexBrush-Regular.b50947ef756f43126a52.ttf",
-    "static/media/platter.png": "/recipes-app/static/media/platter.d63a61ea2ab3e914de75.png",
-    "static/media/shareIcon.svg": "/recipes-app/static/media/shareIcon.87def1bd1dff9af9263f046c3b9bd31a.svg",
-    "static/media/profileIcon.svg": "/recipes-app/static/media/profileIcon.44eb3608f431845fe2fc2d2a23d758ae.svg",
-    "static/media/whiteHeartIcon.svg": "/recipes-app/static/media/whiteHeartIcon.2b822118952dc5140129c6349fcd0472.svg",
+    "static/media/Foodlist-Regular.ttf": "/recipes-app/static/media/Foodlist-Regular.612136e12455032624a0.ttf",
     "static/media/tape2.png": "/recipes-app/static/media/tape2.c7eb980c146ff88a2597.png",
-    "static/media/searchIcon.svg": "/recipes-app/static/media/searchIcon.7353564d025de989f86f66ecb0202a04.svg",
-    "static/media/blackHeartIcon.svg": "/recipes-app/static/media/blackHeartIcon.083cb006913d197c95857ebfa2161db7.svg",
-    "static/media/postit-login.webp": "/recipes-app/static/media/postit-login.7b558accc238f406d16c.webp",
     "index.html": "/recipes-app/index.html",
-    "main.784f02ed.css.map": "/recipes-app/static/css/main.784f02ed.css.map",
-    "main.e34ae540.js.map": "/recipes-app/static/js/main.e34ae540.js.map"
+    "main.ea81127c.css.map": "/recipes-app/static/css/main.ea81127c.css.map",
+    "main.b1f7850e.js.map": "/recipes-app/static/js/main.b1f7850e.js.map"
   },
   "entrypoints": [
-    "static/css/main.784f02ed.css",
-    "static/js/main.e34ae540.js"
+    "static/css/main.ea81127c.css",
+    "static/js/main.b1f7850e.js"
   ]
 }
